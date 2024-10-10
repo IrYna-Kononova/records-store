@@ -1,0 +1,30 @@
+.btn-cart {
+  border: none;
+  background: transparent;
+  position: relative;
+
+  svg {
+    font-size: 1.7rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .items-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: bold;
+    font-size: 0.55rem;
+  }
+}
